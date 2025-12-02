@@ -7,7 +7,8 @@ app.use(express.json());
 // Sample data (like a small database)
 let users = [
   { id: 1, name: 'Alice', email: 'alice@gmail.com' },
-  { id: 2, name: 'jake', email: 'jake@gmail.com' }
+  { id: 2, name: 'jake', email: 'jake@gmail.com' },
+  { id: 3, name: 'Marc Ryan', email: 'cc.marcryan.corpuz@cvsu.edu.ph' }
 ];
 
 // ✅ GET - Read all users
